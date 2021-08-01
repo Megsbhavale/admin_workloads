@@ -5,5 +5,5 @@ deploymentType: KUBERNETES
 infrastructure:
 - type: DIRECT_KUBERNETES
   cloudProviderName: Kubernetes Cluster
-  namespace: student97
+  namespace: student97-2
   releaseName: release-${infra.kubernetes.infraId}
